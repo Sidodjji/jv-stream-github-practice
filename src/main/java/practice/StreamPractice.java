@@ -3,8 +3,8 @@ package practice;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 import java.util.Collection;
+import java.util.Optional;
 import java.util.stream.IntStream;
 import model.Candidate;
 import model.Cat;
@@ -29,7 +29,7 @@ public class StreamPractice {
             return min.get();
         }
         throw new RuntimeException("Can't get min value from list: "
-                + "< Here is our input 'numbers' >");
+                + numbers);
     }
 
     /**
