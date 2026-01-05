@@ -1,10 +1,11 @@
 package practice;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+import java.util.Collection;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
 import model.Candidate;
 import model.Cat;
 import model.Person;
@@ -27,7 +28,8 @@ public class StreamPractice {
         if (min.isPresent()) {
             return min.get();
         }
-        throw new RuntimeException("Can't get min value from list: < Here is our input 'numbers' >");
+        throw new RuntimeException("Can't get min value from list: "
+                + "< Here is our input 'numbers' >");
     }
 
     /**
