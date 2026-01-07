@@ -1,6 +1,7 @@
 package practice;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.IntStream;
 import model.Candidate;
 import model.Cat;
